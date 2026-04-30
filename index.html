@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usman — Frontend Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">usman<span class="dot">.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__bg-grid" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__badge animate-fade-up" style="--delay:.1s">
+          <span class="pulse"></span> Open to clients
+        </div>
+        <h1 class="hero__name animate-fade-up" style="--delay:.2s">
+          Hi, I'm <span class="highlight">Usman</span>
+        </h1>
+        <p class="hero__title animate-fade-up" style="--delay:.32s">Frontend Web Developer</p>
+        <p class="hero__tagline animate-fade-up" style="--delay:.44s">
+          I build modern websites that help businesses grow.
+        </p>
+        <div class="hero__cta animate-fade-up" style="--delay:.56s">
+          <a href="https://www.instagram.com/rmuxfably2/" target="_blank" rel="noopener" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            DM me on Instagram
+          </a>
+          <a href="#projects" class="btn btn--ghost">See My Work ↓</a>
+        </div>
+        <div class="hero__scroll-hint animate-fade-up" style="--delay:.7s" aria-hidden="true">
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__label reveal">About</div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <h2 class="section__heading">
+              Building clean, fast<br /><em>websites that convert.</em>
+            </h2>
+            <p>I'm <strong>Usman</strong>, a frontend web developer focused on creating modern, responsive websites using <strong>HTML, CSS, and JavaScript</strong>. I specialise in clean one-page websites, landing pages, and portfolio sites that look sharp on every device.</p>
+            <p>I work directly with businesses and creators to bring their online presence to life — no bloat, no fuss. Just fast, beautiful websites that actually work.</p>
+            <a href="https://www.instagram.com/rmuxfably2/" target="_blank" rel="noopener" class="btn btn--outline">Find me on Instagram →</a>
+          </div>
+          <div class="about__cards reveal">
+            <div class="about__stat-card">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Responsive designs</span>
+            </div>
+            <div class="about__stat-card">
+              <span class="stat-num">Clean</span>
+              <span class="stat-label">Hand-written code</span>
+            </div>
+            <div class="about__stat-card">
+              <span class="stat-num">Fast</span>
+              <span class="stat-label">Delivery turnaround</span>
+            </div>
+            <div class="about__stat-card">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Revisions until perfect</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--dark" id="skills">
+      <div class="container">
+        <div class="section__label reveal">Skills</div>
+        <h2 class="section__heading reveal">My toolkit</h2>
+        <div class="skills__grid">
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M6 6l3.6 40.8L24 51l14.4-4.2L42 6H6z" fill="#E44D26"/><path d="M24 46.6V10H38.8L36.4 37.6 24 41z" fill="#F16529"/><path d="M13 18h11v4H13.4l.4 4.4H24v4h-7.6l.6 5.2L24 37.4v4.2l-9.2-2.6L13 18z" fill="#fff"/><path d="M24 18h11l-1 12H24v-4h6.2l.4-4H24v-4zM24 33.6h.2l5-1.4.6-6H24v4h3.8l-.4 4.2L24 35.8v-2.2z" fill="#EBEBEB"/></svg>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic, accessible markup. Structuring content the right way from the ground up.</p>
+            <div class="skill-bar"><div class="skill-bar__fill" style="--w:88%"></div></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M6 6l3.6 40.8L24 51l14.4-4.2L42 6H6z" fill="#1572B6"/><path d="M24 46.6V10H38.8L36.4 37.6 24 41z" fill="#33A9DC"/><path d="M13 18h11v4H13.4l.4 4.4H24v4h-7.6l.6 5.2L24 37.4v4.2l-9.2-2.6L13 18z" fill="#fff"/><path d="M24 18h11l-1 12H24v-4h6.2l.4-4H24v-4zM24 33.6h.2l5-1.4.6-6H24v4h3.8l-.4 4.2L24 35.8v-2.2z" fill="#EBEBEB"/></svg>
+            </div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, Flexbox, Grid, animations — polished designs for every screen.</p>
+            <div class="skill-bar"><div class="skill-bar__fill" style="--w:82%"></div></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">
+              <svg viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="4" fill="#F7DF1E"/><path d="M13 36.5l3.2-1.95c.62 1.1 1.18 2.03 2.53 2.03 1.3 0 2.12-.5 2.12-2.48V21h3.93v13.16c0 4.08-2.39 5.94-5.88 5.94-3.15 0-4.98-1.63-5.92-3.6zM28 36.1l3.2-1.86c.84 1.37 1.93 2.38 3.86 2.38 1.62 0 2.65-.81 2.65-1.93 0-1.34-.97-1.82-2.67-2.57l-.92-.39c-2.72-1.16-4.52-2.61-4.52-5.68 0-2.83 2.15-4.98 5.52-4.98 2.4 0 4.12.84 5.36 3.02l-2.93 1.88c-.65-1.16-1.35-1.61-2.43-1.61-1.1 0-1.8.7-1.8 1.61 0 1.13.7 1.58 2.3 2.28l.92.39c3.2 1.37 5 2.77 5 5.9 0 3.38-2.65 5.26-6.22 5.26-3.47 0-5.72-1.65-6.32-3.7z" fill="#000"/></svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Interactive experiences, smooth animations, and dynamic functionality built to impress.</p>
+            <div class="skill-bar"><div class="skill-bar__fill" style="--w:74%"></div></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon skill-card__icon--neutral">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Every site I build works flawlessly on mobile, tablet, and desktop.</p>
+            <div class="skill-bar"><div class="skill-bar__fill" style="--w:90%"></div></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon skill-card__icon--neutral">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>UI/UX Basics</h3>
+            <p>Clean layouts, good spacing, and visual hierarchy that guides visitors naturally.</p>
+            <div class="skill-bar"><div class="skill-bar__fill" style="--w:78%"></div></div>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-card__icon skill-card__icon--neutral">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3>Fast Delivery</h3>
+            <p>Quick turnaround without cutting corners — your site live and ready to impress.</p>
+            <div class="skill-bar"><div class="skill-bar__fill" style="--w:95%"></div></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__label reveal">Projects</div>
+        <h2 class="section__heading reveal">Work I'm proud of</h2>
+        <div class="projects__grid">
+
+          <article class="project-card reveal">
+            <div class="project-card__preview project-card__preview--1">
+              <div class="project-card__mock">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-hero-block"></div>
+                <div class="mock-lines">
+                  <div></div><div></div><div style="width:60%"></div>
+                </div>
+                <div class="mock-cards">
+                  <div></div><div></div><div></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <h3>Luxe Barbershop Landing Page</h3>
+              <p>A sleek one-page site for a premium barbershop. Includes a booking section, services list, and gallery — all fully responsive.</p>
+              <a href="#contact" class="project-card__link">View details →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__preview project-card__preview--2">
+              <div class="project-card__mock">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-nav"></div>
+                <div class="mock-hero-split">
+                  <div class="mock-text-block"><div></div><div></div><div style="width:50%"></div></div>
+                  <div class="mock-img-block"></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <h3>Fitness Coach Portfolio</h3>
+              <p>A bold personal brand site for a fitness coach. Hero with CTA, program cards, testimonials section, and contact form.</p>
+              <a href="#contact" class="project-card__link">View details →</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__preview project-card__preview--3">
+              <div class="project-card__mock">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-hero-center">
+                  <div class="mock-avatar"></div>
+                  <div></div><div></div>
+                </div>
+                <div class="mock-skill-pills">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <h3>Developer Portfolio Template</h3>
+              <p>A minimal, fast-loading portfolio template for developers and designers. Clean sections, smooth scroll, dark/light ready.</p>
+              <a href="#contact" class="project-card__link">View details →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--contact" id="contact">
+      <div class="contact__glow" aria-hidden="true"></div>
+      <div class="container contact__inner">
+        <div class="section__label reveal" style="color:var(--accent-light)">Contact</div>
+        <h2 class="section__heading reveal" style="color:#fff">
+          Ready to get your<br /><em>website built?</em>
+        </h2>
+        <p class="contact__sub reveal">
+          Send me a DM on Instagram and let's talk about your project.<br />
+          I respond within 24 hours.
+        </p>
+        <div class="contact__actions reveal">
+          <a href="https://instagram.com/" target="_blank" rel="noopener" class="btn btn--white">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            DM me on Instagram
+          </a>
+        </div>
+        <div class="contact__social reveal">
+          <a href="https://www.instagram.com/rmuxfably2/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter/X">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="nav__logo">usman<span class="dot">.</span></span>
+      <span class="footer__copy">© 2026 Usman — Frontend Web Developer</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
